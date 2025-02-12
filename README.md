@@ -81,6 +81,8 @@ Resultado final:
 
 ![imagen](https://github.com/user-attachments/assets/d8d5a3d4-71b7-48e0-ac96-2e25e66b1575)
 
+#### Nota: Este programa se ejecuta en un host local, no se encuentra desplegada en ningun servidor, la url `http://localhost:3000` corresponde solo a tu maquina y nadamas (puede modificar el puerto si presenta problemas desde index.js).
+
 
 
 
