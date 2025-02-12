@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Tarea</title>
+    <link rel="stylesheet" href="nueva-tarea.css">
+</head>
+<body>
+    <h1>Editar Tarea</h1>
+    <form id="editTaskForm">
+        <input type="hidden" id="taskId">
+        <div>
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" required>
+        </div>
+        <div>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" required></textarea>
+        </div>
+        <div>
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="false">Pendiente</option>
+                <option value="true">Completada</option>
+            </select>
+        </div>
+        <button type="submit">Guardar Cambios</button>
+    </form>
+
+    <br>
+    <button onclick="window.location.href='index.html'">Volver al inicio</button>
+
+    <script src="editar-tarea.js"></script>
+</body>
+</html>

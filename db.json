@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "titulo": "Revisar documentos Carta Pasante",
+      "descripcion": "Verificar que los documentos de la carta pasante esten completos y correctos.",
+      "estado": false
+    },
+    {
+      "id": 2,
+      "titulo": "Lavar la ropa de la fiesta",
+      "descripcion": "Lavar la ropa para la fiesta de cumpleaños.",
+      "estado": false
+    },
+    {
+      "id": 3,
+      "titulo": "Terminar task list app",
+      "descripcion": "Finalizar la actividad de desarrollo de terminal logistics",
+      "estado": true
+    }
+  ]
+}
