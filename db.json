@@ -4,7 +4,7 @@
       "id": 1,
       "titulo": "Revisar documentos Carta Pasante",
       "descripcion": "Verificar que los documentos de la carta pasante esten completos y correctos.",
-      "estado": false
+      "estado": true
     },
     {
       "id": 2,
